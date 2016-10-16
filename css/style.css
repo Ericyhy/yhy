@@ -1,0 +1,383 @@
+
+.top,header,.wraper,footer,.foot{
+	width: 1200px;
+	padding: 0 75px;
+	margin: 0 auto;
+}
+.top{
+	height: 40px;
+}
+.top,header{
+	background: #fff;
+}
+header{
+	height: 80px;
+}
+.wraper{
+	background: rgb(246,246,246);
+}
+section{
+	width: 820px;
+	float: left;
+}
+aside{
+	width: 360px;
+	float: left;
+	margin-left: 20px;
+}
+footer{
+	background: rgb(68,68,68);
+	height: 95px;
+	padding: 70px 0 65px 0;
+}
+.foot{
+	background: #fff;
+	height: 90px;
+}
+.bot{
+	margin-bottom: 10px;
+	border: 1px solid rgb(234,234,234);
+}
+.bg{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	background: rgb(246,246,246);
+	color: #333333;
+}
+.sec{
+	height: 46px;
+	font-size: 24px;
+	line-height: 46px;
+	color: rgb(122,111,111);
+}
+.nobian{
+	border:none !important;
+}
+article{
+	background: #FFFFFF;
+}
+/*************************top***************************/
+.top .top_left{
+	float: left;
+	color:rgb(153,153,153);
+	line-height: 40px;
+}
+.top_left a{
+	padding-left: 15px;
+}
+.top_right{
+	float: right;
+}
+.top_right li{
+	float: left;
+	line-height: 40px;
+}
+.top_right li a{
+	color:rgb(153,153,153);
+	padding: 0 8px;
+}
+.top_right li .line{
+	background: url(../img/line.jpg) no-repeat right center;
+}
+/*************************header**************************/
+header{
+	background: url(../img/logo.png) no-repeat 75px center;
+}
+header ul li{
+	float:right;
+	padding: 0 12px;
+	line-height: 80px;
+}
+header ul li .current{
+	color: rgb(69,182,247);
+}
+/*************************section**************************/
+.banner{
+	width: 100%;
+	height: 300px;
+}
+.banner img{
+	width: 820px;
+	height: 300px;
+}
+.daodu{
+	height: 248px;
+	width: 798px;
+	padding: 10px;
+	border: 1px solid rgb(234,234,234);
+}
+.daodu ul li img{
+	float: left;
+	margin-right: 20px;
+}
+.daodu ul li{
+	height: 112px;
+	position: relative;
+}
+.daodu ul .second{
+	margin-top: 24px;
+}
+.sec_left{
+	float: left;
+	width: 375px;
+	height: 250px;
+}
+.sec_right{
+	float: right;
+	width: 375px;
+	height: 250px;
+}
+.daodu ul li h4{
+	font-size: 16px;
+	line-height: 20px;
+}
+.daodu ul li p{
+	font-size: 12px;
+	line-height: 18px;
+	color: rgb(136,136,156);
+	position: absolute;
+	width: 180px;
+	top: 50px;
+	right: 0;
+}
+.news{
+	width: 798px;
+	padding: 10px;
+	border: 1px solid rgb(234,234,234);
+}
+.news ul li{
+	width: 100%;
+	height: 170px;
+	border-bottom: 1px solid rgb(234,234,234);
+	padding-top: 20px;
+}
+.news ul li>img{
+	margin-right: 20px;
+	float: left;
+	height: 130px;
+	width: 168px;
+}
+.news ul li h4{
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	font-weight: 900;
+	color: #000;
+}
+.news ul li h4 img{
+	float: left;
+}
+.news ul li .jian{
+	margin: 16px 0;
+	color: rgb(214,197,187);
+	font-size: 14px;
+}
+.news ul li p .day{
+	background: url(../img/nao.jpg) no-repeat left  center;
+	padding-left: 20px;
+}
+.news ul li p .yan{
+	background: url(../img/yan.jpg) no-repeat left center;
+	padding-left: 20px;
+	margin: 0 20px;
+}
+.news ul li p .ping{
+	background: url(../img/ping.jpg) no-repeat left center;
+	padding-left: 20px;
+}
+.news ul li p{
+	line-height: 24px;
+}
+
+/*************************aside**************************/
+.sinna{
+	border: 1px solid rgb(234,234,234);
+}
+.theme{
+	padding: 0 14px;
+	width: 330px;
+	height: 146px;
+	font-size: 14px;
+}
+.theme h4{
+	width:156px;
+	height: 30px;
+	color: #FFFFFF;
+	background: rgb(66,139,202);
+	line-height: 30px;
+	text-align: center;
+}
+.theme h3{
+	height: 48px;
+	font-size: 18px;
+	line-height: 48px;
+	color: rgb(66,139,202);
+}
+.theme p{
+	line-height: 20px;
+	color: rgb(153,153,153);
+}
+.hot{
+	width: 358px;
+	height: auto;
+}
+
+.hot ul li{
+	padding: 5px 20px 5px 10px;
+	height: 95px;
+	border: 1px solid rgb(246,246,246);
+}
+.hot ul li img{
+	float: left;
+	height: 85px;
+	width: 125px;
+	margin-right: 10px;
+}
+.hot ul li .date{
+	color: rgb(187,187,206);
+}
+.hot ul li p span{
+	float: right;
+	margin-right: 10px;
+}
+.mulu{
+	width: 358px;
+	height:auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.mulu ul li{
+	height: 24px;
+	line-height: 24px;
+	padding:0 9px;
+}
+.mulu ul{
+	height: 110px;
+	background: #fff;
+	width: 179px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.mulu ul li a{
+	color: rgb(9,168,207);
+}
+.zhu img{
+	width: 358px;
+	height: auto;
+}
+.biao {
+	width: 358px;
+	margin-bottom: 10px;
+	height: auto;
+	overflow: hidden;
+}
+.biao ul{
+	float: left;
+	width: 105px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.biao ul li{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	background: rgb(153,153,153);
+}
+.biao ul li a{
+	margin-left: 10px;
+	color: #fff;
+}
+.email{
+	width: 358px;
+}
+.email p{
+	margin-left: 20px;
+	margin-top: 10px;
+	color: #000000;
+}
+.email .text{
+	margin-top:10px;
+	border: 1px solid rgb(9,168,197);
+	width: 236px;
+	height: 32px;
+	margin-left: 20px;
+}
+.email .button{
+	margin-top: 10px;
+	background: rgb(9,168,197);
+	width: 86px;
+	height: 30px;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.link{
+	width: 358px;
+	overflow: hidden;
+}
+.link a{
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	float: left;
+}
+.link .word{
+	margin-left: 20px;
+	color:rgb(83,195,215);
+	
+}
+.link .seo{
+	margin-left: 50px;
+	color:rgb(83,195,215);
+}
+/*************************page**************************/
+.page{
+	height: 55px;
+	clear: both;;
+	padding-top: 20px;
+}
+.page a{
+	float: left;
+	padding: 5px 10px;
+	margin-right: 10px;
+	background: rgb(224,224,224);
+	color: rgb(120,148,178);
+}
+.page .first{
+	background: rgb(38,178,203);
+	color: #FFFFFF;
+	margin-left:333px ;
+}
+/*************************footer**************************/
+.gao{
+	font-size: 36px;
+	color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+}
+.lian{
+	margin-top: 20px;
+}
+.lian a{
+	display: block;
+	height: 40px;
+	width: 135px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-left: 550px;
+	border-radius: 5px;
+}
+/*************************foot**************************/
+.foot p{
+	text-align: center;
+	margin-top: 18px;
+}
